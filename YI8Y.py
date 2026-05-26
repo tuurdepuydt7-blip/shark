@@ -11,5 +11,5 @@ def generate_combinations(length):
         print(password) # Replace this with your 'check_password' function
 
 # To try lengths 1 through 4
-for i in range(1, 5):
+for i in range(1, 21):
     generate_combinations(i)
