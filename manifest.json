@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Security Request Monitor",
+  "version": "1.0",
+  "description": "Monitors and counts outgoing HTTP POST requests for security awareness.",
+  "permissions": [
+    "webRequest"
+  ],
+  "host_permissions": [
+    "https://*/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
